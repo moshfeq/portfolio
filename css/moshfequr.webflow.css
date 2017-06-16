@@ -1,0 +1,217 @@
+.nav {
+  background-color: #3d4144;
+}
+
+.nav-link {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: Lato, sans-serif;
+  color: #f1f1f1;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.text-block {
+  margin-top: 17px;
+  font-family: Lato, sans-serif;
+  color: #f1f1f1;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.hero-section {
+  min-height: 540px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('../images/58f206f1a5352543aeedae10_fe4a5cbf.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('../images/58f206f1a5352543aeedae10_fe4a5cbf.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.hero-wrapper {
+  display: block;
+  max-width: 700px;
+  margin-top: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.hero-title {
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.work-cta {
+  padding-right: 30px;
+  padding-left: 30px;
+  border-style: none;
+  border-radius: 1px;
+  background-color: #3ab47e;
+  font-family: Lato, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.skills {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #3d4144;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.skill-block {
+  position: relative;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  background-color: #5c6266;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+.text-block-2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 15px;
+}
+
+.percent {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 10px 20px;
+  background-color: #757575;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #272829;
+  text-align: center;
+}
+
+.body {
+  background-color: #222;
+}
+
+.portfolio-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.image {
+  width: 100%;
+}
+
+.info {
+  margin-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  border-style: none solid solid;
+  border-width: 2px;
+  border-color: hsla(0, 100%, 99%, .55);
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+}
+
+.email {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  background-color: #3ab47e;
+  text-align: center;
+}
+
+.mail-me-link {
+  font-family: 'Open Sans', sans-serif;
+  color: hsla(0, 0%, 100%, .77);
+  font-size: 48px;
+  text-decoration: none;
+}
+
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.contact-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.form {
+  display: block;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.input {
+  min-height: 50px;
+  margin-bottom: 30px;
+  padding: 13px;
+  border-style: none;
+  border-radius: 2px;
+  background-color: #4b4b4b;
+  color: #fff;
+}
+
+.input.message {
+  min-height: 150px;
+  margin-bottom: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.label {
+  margin-bottom: 12px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.submit {
+  width: 100%;
+  height: 50px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 1px;
+  background-color: #3ab47e;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}

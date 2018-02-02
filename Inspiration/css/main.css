@@ -24,10 +24,10 @@ header .overlay {
 }
 header h1 {
     font-size: 42px;
-    color: #fff;
+    color: #f4e9e9;
     position: relative;
     z-index: 1000;
-    font-weight: 200;
+    font-weight: 300;
 }
 .inspiration {
     padding: 50px 15px;
@@ -79,8 +79,8 @@ header h1 {
 }
 .content .flex li a {
     text-decoration: none;
-    color: #333;
-    font-size: 18px;
+    color: #606060;
+    font-size: 14px;
 }
 .desc {
     background: #fff;

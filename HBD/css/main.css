@@ -1,0 +1,449 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+body.grey {
+    background: #F3F3F3;
+}
+.no-padding {
+    padding: 0;
+}
+.pb-50 {
+    padding-bottom: 50px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.top-part .bn,.bn {
+    border: none;
+}
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*nav custom code*/
+.navbar-default {
+    background: #333;
+    border:none;
+    border-radius: 0;
+    color: #F2F2F2;
+    padding-top:  7px;
+    padding-bottom:  7px;
+    margin-bottom:  0;
+}
+.navbar-default .navbar-brand {
+    position: relative;
+    padding-left: 32px;
+}
+.navbar-default .navbar-brand .logo-img {
+    position: absolute;
+    height: 180px;
+    background:  #fff;
+    width: 166px;
+    display: flex;
+    justify-content:  center;
+    align-items:  center;
+    top: -123px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #F2F2F2;
+    font-size: 22px;
+    font-weight: 500;
+} 
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.dropdown-menu {
+    background-color: #EB5757;
+    padding: 10px 0;
+}
+.dropdown-menu>li>a {
+    color: #fff;
+    font-size: 20px;
+}
+nav .dropdown-toggle .caret {
+    color:#6FCF97;
+}
+/*top part css*/
+.slogan {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+.top-part {
+    height: 120px;
+    padding-top: 48px;
+    padding-left: 215px;
+    padding-right: 15px;
+}
+.top-part .links {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content:  flex-end;
+}
+.top-part .links .contact-no {
+    font-weight: bold;
+}
+.top-part a {
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 7px;
+    border: 1px solid;
+    padding: 8px 15px;
+}
+.top-part a img {
+    margin-left: 5px;
+}
+
+/*banner section css*/
+
+.banner .no-padding {
+    background: url('../img/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.banner h1 {
+    color: #6FCF97;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.banner h3 {
+    line-height: 140%;
+}
+
+.blood {
+    background: #D6351E;
+    padding: 50px 0;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.blood h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.blood a {
+    text-decoration: none;
+}
+.blood a:hover {
+    text-decoration: none;
+}
+.blood-group {
+    background: #fff;
+    padding: 30px;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius:  2px;
+    transition: all .4s;
+}
+.blood-group:hover {
+    border-radius: 6px;
+    opacity: .8;
+}
+.blood-group h4 {
+    margin: 0;
+    color: #000;
+    font-weight: 600;
+}
+
+
+.news {
+    padding: 50px 0;
+    padding-bottom:40px;
+    text-align: center;
+}
+.news-tile:hover {
+    box-shadow: 2px 1px 8px #00000017;
+}
+.news-tile a {
+    display: block;
+    padding-top: 10px;
+}
+.news-tile a:hover {
+    text-decoration: none;
+}
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+.news h4 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+.news h1.title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.news h1 {
+    font-size: 24px;
+    font-weight: 600;
+    width: 85%;
+    color: #D6351E;
+    margin-top: 0;
+}
+.news p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.goal {
+    padding-bottom: 50px;
+    background: #e4e2e2;
+    padding-top: 40px;
+}
+.goal h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #6FCF97;
+    margin-top:  0;
+}
+.goal p {
+    font-size: 20px;
+    color: #333;
+}
+/*benefits css */
+
+.benefits {
+    background: #333333;
+    padding: 50px 0;
+}
+.benefits h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 100%;
+}
+.benefit-list {
+    list-style-type: none;
+    color: #000000;
+    padding-left: 0;
+}
+.benefit-list li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 2px;
+    padding-left: 20px;
+    color: #333;
+}
+.benefits p {
+    color: #ffffffcf;
+    font-size: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height:  120%;
+}
+.benefits iframe {
+    width: 100%;
+    height: 300px;
+}
+@media screen and (max-width:991px ){
+    .benefit-list {
+        margin-bottom: 40px;
+    }
+    .benefits iframe {
+        height: 400px;
+    }
+}
+.footer {
+    background: #A13E30;
+    padding: 30px 0;
+    color: #fff;
+}
+.footer p {
+    font-size: 18px;
+}
+.footer .links {
+    display: flex;
+}
+.footer a {
+    color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 7px;
+}
+.footer a img {
+    margin-left: 4px;
+}
+.developers {
+    padding: 30px;
+    color: #fff;
+    background: #D6351E;
+}
+
+/*blog page css*/
+
+.blog-header {
+    background-image: url(../img/blog-header-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.blog-header .blog-title {
+    color: #fff;
+    margin-bottom: 5px;
+}
+.blog-header .blog-description {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #ddd;
+}
+.avator {
+    width: 90px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.blog-header .blog-title.post-title {
+    font-size: 28px;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+.name {
+    font-weight: 400;
+}
+.blog-header .name {
+    color: #dad4d4;
+}
+.post-body p {
+    color: #333;
+    line-height: 180%;
+}
+.post-body h1 {
+    margin: 50px 0;
+    margin-bottom: 15px;
+}
+
+/*..................*/
+
+span.blood-group {
+    color: #d6361e;
+    font-size: 40px;
+}
+.banner h1.blood-specific-title {
+    color: #333;
+    font-weight: 600;
+    font-size: 36px;
+}
+.google-form-embed iframe {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -10px;
+}
+
+/*------------About page-------------*/
+.advisors {
+    padding-bottom: 50px;
+}
+.advisor-title {
+    color: #5487CC;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.advisor-title.funding-memebrs-title {
+    font-size: 30px;
+    color: #6FCF97;
+}
+
+.funding-memebrs img.img-responsive:hover {
+   opacity: .7;
+}
+.funding-memebrs .col-sm-2 {
+    padding: 0 3px;
+}
+.funding-memebrs h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+   
+.advisor-title.funding-memebrs-title.general-members-title {
+    color: #EB5757;
+}
+
+
+/*--------gallery-----------*/
+.gallery {
+    padding-bottom: 30px;
+}
+
+.gallery-block {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius:  2px;
+}
+.gallery-block .gallery-info {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.gallery-block .gallery-info h1,
+.gallery-block .gallery-info h2,
+.gallery-block .gallery-info h3 {
+    margin-top: 0;
+    margin-right: 20px;
+    font-size: 15px;    
+    font-weight: bold;
+}
+.gallery-block .gallery-info h1 {
+    color: #6FCF97;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.gallery-block .gallery-info .date h3 {
+    font-weight: 500;
+    padding-top:  5px;
+}
+.gallery-block .gallery-info .img-count h2 {
+    padding-top: 5px;
+    font-size: 22px;
+    color: #333;
+}
+.gallery-block .images {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-block .images img {
+    width: 25%;
+}

@@ -2,6 +2,12 @@
     background-color: #CADFE0;
     font-family: 'Roboto', sans-serif;
 }
+img {
+    width: 100%;
+}
+.w-container {
+    max-width: 1100px;
+}
 header {
     padding: 80px 0;
     text-align: center;
@@ -42,12 +48,23 @@ header h1 {
     padding-top: 45px;
 }
 .side-bar {
-    width: 250px;
+    width: 100%;
 }
 .side-bar ul,
 .content ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.side-bar ul {
+    margin: 0px 10px;
+    margin-bottom: 20px;
+}
+.category {
+    width: 25%;
+    padding-right: 10px;
 }
 .side-bar ul a {
     text-decoration: none;
@@ -70,7 +87,7 @@ header h1 {
     flex-wrap: wrap;
 }
 .content {
-    width: 800px;
+    width: 100%;
 }
 .content .flex li {
     width: 33.333%;

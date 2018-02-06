@@ -1,0 +1,166 @@
+body {
+   font-family: 'Roboto', sans-serif;
+    background: #4F5ABB;
+}
+.category-wrap {
+    /*
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+*/
+    background: #c7d0d2;
+    height: 0;
+    display: none;
+    transition: all .3s;
+    }
+.show {
+    height: auto;
+    display: block;
+    transition: all .3s;
+}
+.category-wrap ul {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.category-wrap ul li {
+    padding: 10px 20px;
+    margin-top: 5px;
+    background: #4f5abb;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.category-wrap ul li:hover {
+    background: #2e2c2c;
+    color: #fff;
+    cursor: pointer;
+}
+.category-wrap ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 42px;
+    color: #333333;
+}
+h1,h4 {
+    font-family: 'Marcellus', serif;
+    margin: 0;
+}
+h4 {
+    font-size: 24px;
+    color: #333;
+    line-height: 130%;
+}
+.center {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    background: #000;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 30px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+nav h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.navigation {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Marcellus', serif;
+    font-size: 18px;
+}
+.toggle-menu {
+    padding-top: 5px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hero.center  {
+    padding: 100px 0; 
+}
+.hero.center h1 {
+    color: #fff;
+}
+.hero h4 {
+    max-width: 630px;
+    line-height: 140%;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.62);
+}
+.hero h4 span {
+    text-decoration: underline;
+}
+.inspiration-block {
+    background: #fff;
+    padding: 30px;
+    padding-bottom:  10px;
+}
+.inspiration-block h4.title {
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+.inspiration-block img {
+    width: 100%;
+}
+.inspiration-block h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 100%;
+}
+
+.desc {
+    background: #EBEBEB;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+nav.footer h1 {
+    font-family: 'Marcellus', serif;
+font-style: normal;
+font-weight: normal;
+line-height: 27px;
+font-size: 18px;
+text-transform: capitalize;
+color: #F2F2F2;
+}
+nav.footer a {
+    color: #BDBDBD;
+}
+nav.footer a span {
+    color: #fff;
+}
+nav.footer .navigation {
+    padding: 0;
+}

@@ -79,6 +79,9 @@ nav {
     justify-content: space-between;
     color: #fff;
 }
+nav .logo a:hover {
+    text-decoration: none;
+}
 nav h1 {
     font-family: 'Roboto', sans-serif;
     color: #fff;

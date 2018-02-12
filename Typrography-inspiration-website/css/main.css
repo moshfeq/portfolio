@@ -1,7 +1,14 @@
 body {
    font-family: 'Roboto', sans-serif;
     background: #4F5ABB;
+    background: #0032D2;
 }
+/*
+#nav {
+    background: #333;
+    
+}
+*/
 .category-wrap {
     /*
     position: fixed;
@@ -12,7 +19,7 @@ body {
     width: 100%;
     height: 100%;
 */
-    background: #c7d0d2;
+    background: #3867fc;
     height: 0;
     display: none;
     transition: all .3s;
@@ -34,7 +41,7 @@ body {
 .category-wrap ul li {
     padding: 10px 20px;
     margin-top: 5px;
-    background: #4f5abb;
+    background: #494c62;
     margin-bottom: 5px;
     margin-right: 10px;
     border-radius: 3px;
@@ -68,6 +75,7 @@ h4 {
 }
 nav {
     background: #000;
+    background: #3867fc;
     font-size: 18px;
     color: #fff;
     padding: 15px 30px;

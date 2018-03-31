@@ -1,5 +1,6 @@
 body {
-    font-family: 'Nunito', sans-serif;
+/*    font-family: 'Nunito', sans-serif;*/
+    font-family: 'Poppins', sans-serif;
 }
 body.grey {
     background: #F3F3F3;
@@ -16,6 +17,16 @@ body.grey {
 .top-part .bn,.bn {
     border: none;
 }
+.contact.red {
+    background: #D6351E;
+    width: 300px;
+    padding:  20px;
+    position:  absolute;
+    top: -48px;
+    right: 20px;
+    color: #fff;
+    display:  inline-block;
+}
 .clear:after {
   content: "";
   display: table;
@@ -23,7 +34,8 @@ body.grey {
 }
 /*nav custom code*/
 .navbar-default {
-    background: #333;
+/*    background: #333;*/
+    background: #5e797c;
     border:none;
     border-radius: 0;
     color: #F2F2F2;
@@ -34,6 +46,18 @@ body.grey {
 .navbar-default .navbar-brand {
     position: relative;
     padding-left: 32px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background: #fff;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-toggle .icon-bar {
+    width: 35px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
 }
 .navbar-default .navbar-brand .logo-img {
     position: absolute;
@@ -47,8 +71,8 @@ body.grey {
 }
 .navbar-default .navbar-nav>li>a {
     color: #F2F2F2;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
 } 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #fff;
@@ -67,7 +91,7 @@ nav .dropdown-toggle .caret {
 /*top part css*/
 .slogan {
     font-size: 16px;
-    color: #000;
+    color: #444;
     font-weight: bold;
 }
 .top-part {
@@ -94,12 +118,13 @@ nav .dropdown-toggle .caret {
     align-items: center;
     text-decoration: none;
     margin-left: 20px;
-    color: #333;
+    color: #5e797c;
     font-size: 18px;
     font-weight: 600;
     padding-top: 7px;
-    border: 1px solid;
+    border: 1px solid #5e797c;
     padding: 8px 15px;
+    border-radius:  2px;
 }
 .top-part a img {
     margin-left: 5px;
@@ -121,6 +146,8 @@ nav .dropdown-toggle .caret {
 }
 .banner h3 {
     line-height: 140%;
+    color: #5c5c5c;
+    font-size:  20px;
 }
 
 .blood {
@@ -132,7 +159,7 @@ nav .dropdown-toggle .caret {
 .blood h1 {
     font-size: 30px;
     color: #fff;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 40px;
     margin-top: 0;
 }
@@ -159,7 +186,7 @@ nav .dropdown-toggle .caret {
 .blood-group h4 {
     margin: 0;
     color: #000;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 
@@ -211,13 +238,14 @@ nav .dropdown-toggle .caret {
 .goal h1 {
     margin-bottom: 50px;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
     color: #6FCF97;
     margin-top:  0;
 }
 .goal p {
-    font-size: 20px;
+    font-size: 18px;
     color: #333;
+    line-height: 165%;
 }
 /*benefits css */
 
@@ -237,13 +265,14 @@ nav .dropdown-toggle .caret {
     list-style-type: none;
     color: #000000;
     padding-left: 0;
+    background:  #fff;
+    padding: 20px;
 }
 .benefit-list li {
-    background: #fff;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 2px;
     padding-left: 20px;
     color: #333;
@@ -351,9 +380,9 @@ span.blood-group {
     font-size: 40px;
 }
 .banner h1.blood-specific-title {
-    color: #333;
     font-weight: 600;
     font-size: 36px;
+    color: #6FCF97;
 }
 .google-form-embed iframe {
     width: 100%;
